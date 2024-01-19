@@ -1,0 +1,1571 @@
+
+@import url("reset.css");
+
+@font-face {
+  font-family: 'Oxygen';
+  src: url('../Oxygen-Bold.woff2') format('woff2'),
+      url('../Oxygen-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url('../Lora-Regular.woff2') format('woff2'),
+      url('../Lora-Regular.woff') format('woff');
+  font-weight: 400;
+  /*  font-style: normal; */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  src: url('/fonts/Oxygen-Regular.woff2') format('woff2'),
+      url('../Oxygen-Regular') format('woff');
+  font-weight: 400;
+  /* font-style: italic; */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../Roboto-Bold.woff2') format('woff2'),
+      url('../Roboto-Bold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Regular.woff2') format('woff2'),
+      url('/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+
+/*  @import url('https://fonts.googleapis.com/css2?family=Lora&family=Oxygen&display=swap'); 
+ font-family: 'Lora', serif; font-family: 'Oxygen', sans-serif; */
+
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Oxygen';
+}
+
+
+
+/************************************************/
+
+/***********************AMELIA*****************************/
+.containerAM {
+  width: 1140px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+
+.headerAM {
+  background: #81a36b;
+}
+
+.header-containerAM {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heder-logoAM {
+  padding: 19px 0;
+}
+
+.header-listAM {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding: 25px 0;
+  line-height: 29px;
+}
+
+.header-listAM a {
+  color: #161616;
+  text-decoration: none;
+}
+
+.section-1AM {
+  background: #d8d8d6;
+  margin: 0 auto;
+  flex-shrink: 0;
+  /*outline: 2px solid red;*/
+}
+
+.section-in1AM {
+  margin: 0 auto;
+  width: 1140px;
+  padding: 0 0 0 15px;
+}
+
+.section-in2AM {
+  display: flex;
+}
+
+.img-sect-1AM {
+  width: 540px;
+  height: 670px;
+  flex-shrink: 0;
+  /*outline: 1px solid red;*/
+}
+
+.Amelia {
+  font-family: "Architects Daughter";
+  font-weight: 400;
+  font-size: 62px;
+  padding: 174px 0 41px 0;
+}
+
+.lorm-1AM {
+  padding: 0 30px 20px 0;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 164%;
+}
+
+.sect-1AM {
+  width: 570px;
+  height: 670px;
+  flex-shrink: 0;
+  /*outline: 1px solid rgb(55, 0, 255);*/
+}
+
+.btsAM {
+  display: flex;
+  gap: 25px;
+}
+
+.bt1AM {
+  width: 197px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #81a36b;
+  border-radius: 6px;
+  text-align: center;
+  padding: 18px 34px 21px;
+}
+.bt1AM {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.bt2AM {
+  height: 60px;
+  flex-shrink: 0;
+  border: 1px solid #81a36b;
+  border-radius: 6px;
+  padding: 18px 34px 21px;
+  text-align: start;
+}
+.bt2AM {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-2AM {
+  background: #d8d8d6;
+  margin: 0 auto;
+  flex-shrink: 0;
+  padding: 120px 0 120px 0;
+  /*outline: 2px solid red;*/
+}
+
+.sect-2AM {
+  width: 540px;
+  height: 196px;
+  margin: 0 auto;
+  /*outline: 2px solid red;*/
+}
+
+.AboutAM {
+  font-size: 32px;
+  font-weight: 400;
+  color: #161616;
+  font-family: "Architects Daughter";
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.lorm-cont-2AM {
+  height: 112px;
+  color: #161616;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 164%;
+  /*outline: 2px solid red;*/
+}
+
+.section-3AM {
+  background: #81a36b;
+}
+
+.sect-3AM {
+  /*outline: 2px solid red;*/
+  margin: 0 auto;
+  padding: 78px 0 78px 0;
+}
+
+.boxAM {
+  display: flex;
+  width: 1110px;
+  height: 126px;
+  /*outline: 2px solid red;*/
+  margin: 0 auto;
+  gap: 90px;
+  justify-content: space-between;
+}
+
+.boxAM > div {
+  text-align: center;
+  height: 126px;
+  /*outline: 1px solid red;*/
+}
+
+.boxAM > div > div {
+  height: 22px;
+  /*outline: 1px solid red;*/
+  text-align: center;
+  padding-top: 25px;
+}
+
+.boxAM > div > div {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img1AM {
+  width: 139px;
+}
+
+.img2AM {
+  width: 178px;
+}
+.text2AM {
+  height: 22px;
+  text-align: center;
+}
+
+
+.img3AM {
+  width: 115px;
+}
+.text3AM {
+  height: 22px;
+  /*outline: 1px solid red;*/
+  text-align: center;
+}
+
+
+.img4AM {
+  width: 185px;
+}
+.text4AM {
+height: 22px;
+  /*outline: 1px solid red;*/
+  text-align: center;
+}
+
+
+.img5AM {
+  width: 129px;
+}
+.text5AM {
+height: 22px;
+  /*outline: 1px solid red;*/
+  text-align: center;
+}
+
+.section-4AM {
+  background: #D8D8D6;
+}
+
+.sect-4AM {
+  width: 1109px;
+  margin: 0 auto;
+}
+
+.sect-4-1AM {
+  display: flex;
+  gap: 30px;
+  padding: 120px 0 ;
+}
+
+.img-sect4AM {
+  width: 539px;
+  height: 560px;
+}
+
+.sect-4-textAM {
+  width: 539px;
+  height: 560px;
+  padding: 180px 0 179px 0;
+}
+
+.howAM {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Architects Daughter";
+  width: 539px;
+  height: 38px;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.HlormAM {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  width: 539px;
+  height: 112px;
+  line-height: 164%;
+  text-align: justify;
+}
+
+.section-5AM {
+  background: #D8D8D6;
+}
+
+.sect-5-contAM {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0 0 120px 0;
+}
+
+.ourWorksAM  {
+  width: 403px;
+  height: 38px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Architects Daughter";
+}
+
+.cardsAM {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 0 0 0;
+}
+
+.card-1AM {
+  width: 350px;
+  height: 510px;
+  border-radius: 6px;
+  background: #81A36B;
+  padding: 15px 15px 0 15px;
+}
+.card-1-imgAM {
+  border-radius: 6px;
+}
+.tex-1AM {
+  width: 152px;
+  height: 30px;
+  text-align: center;
+  margin: 23px auto;
+  font: 18px/29px "Roboto";
+}
+
+.card-2AM {
+  width: 350px;
+  height: 510px;
+  border-radius: 6px;
+  background: #81A36B;
+  padding: 15px 15px 0 15px;
+}
+
+.tex-2AM {
+  width: 152px;
+  height: 30px;
+  text-align: center;
+  margin: 23px auto;
+  font: 18px/29px "Roboto";
+}
+
+.card-3AM {
+  width: 350px;
+  height: 510px;
+  border-radius: 6px;
+  background: #81A36B;
+  padding: 15px 15px 0 15px;
+}
+.card-3-imgAM {
+  border-radius: 6px;
+}
+.tex-3AM {
+  width: 152px;
+  height: 30px;
+  text-align: center;
+  margin: 23px auto;
+  font: 18px/29px "Roboto";
+}
+
+.footerAM {
+  /*  outline: 1px solid red; */
+  background: #81A36B;
+}
+
+.AMF {
+  padding: 50px 0 25px 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Architects Daughter";
+}
+
+.ContactsAM {
+  text-align: center;
+  font: 24px/39px "Roboto";
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.num-1AM {
+  text-align: center;
+  font: 18px/29px "Roboto";
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.num-2AM {
+  text-align: center;
+  font: 18px/29px "Roboto";
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.adressAM {
+  text-align: center;
+  font: 18px/29px "Roboto";
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.FooterImgAM {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.year2023AM {
+  text-align: center;
+  font: 16px "Roboto";
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+/***************************************************/
+
+
+/******************* WISDOM ************************************/
+.containerW {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  }
+
+  .container1W {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+  
+  .titleW {
+    font-family: 'Fredericka the Great', serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F2F2F2;
+  }
+  
+  .AboutW {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #F2F2F2;
+  }
+  
+  .subtitleW {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    padding: 24px 25px 24px 25px ;
+    color: #F2F2F2;
+  }
+  
+  .paragraphW {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 25px 24px 25px;
+    color: #F2F2F2;
+  }
+  
+  .headerW {
+    background: #253F97;
+    padding: 35px 0;
+  }
+  
+  .header-containerW{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-listW {
+  display: flex;
+  gap: 20px;
+  }
+  
+  .header-listW a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  /*font-weight: 700;*/
+  font-weight: 400;
+  color: #F2F2F2;
+  }
+  
+  .main-sectionW {
+    background: #2E2E2E;
+  }
+  
+  .main-section-blockW {
+    min-height: 470px;
+    max-width: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .main-section2W {
+    background: #424242;
+  }
+  
+  .container-section2W {
+    min-height: 470px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  
+  .container2W {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 90px 15px  ;
+    }
+  
+  
+  .cr-blocksW {
+    display: flex;
+    padding: 45px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .cr-block1W {
+    width: 555px;
+    height: 375px;
+    border-radius: 8px 0px 0px 8px;
+    background: #212121;
+    flex-shrink: 0;
+  }
+  
+  .cr-block2W {
+    width: 555px;
+    height: 375px;
+    flex-shrink: 0;
+    border-radius: 8px 0px 0px 8px;
+  }
+  
+  .main-section3W {
+    background: #2E2E2E;
+  }
+  
+  .FeatureW {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #F2F2F2;
+  }
+  
+  .main-section-block3W {
+    min-height: 470px;
+    max-width: 1440px;
+  flex-shrink: 0;
+  }
+  
+  .container3W {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 90px 15px;
+  } 
+  
+  .cr-blocks2W {
+    display: flex;
+    padding: 45px 0 0 0;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .cardcont_1W {
+    width: 350px;
+    height: 402px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid #424242;
+    padding: 24px 26px 0 ;
+  }
+  
+  .cardcont_2W {
+    width: 350px;
+    height: 402px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid #424242;
+    padding: 24px 26px 0 ;
+  }
+  
+  .cardcont_3W {
+    padding: 24px 26px 0 ;
+    width: 350px;
+    height: 402px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid #424242;
+  }
+  
+  .card_titleW {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 24px 0 23px 0 ;
+    color: #F2F2F2;
+  }
+  
+  .paragraph2W {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    height: 100px;
+    color: #F2F2F2;
+  }
+  
+  .adressW > a {
+    color: #FF7E20;
+    
+  }
+  .adressW {
+    padding-bottom: 23px;
+  }
+  
+  .footer_containerW {
+    background: #253F97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .adress_footerW {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  .adress_footerW > a {
+    color: #F2F2F2;
+  }
+  
+  .footer-icoW {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 24px 0 29px ;
+  }
+/*************************************************************/
+
+
+/*********************** less 1: weather ***********************************/
+.BG-weather {
+  background: #978d8d;
+  height: 740px
+}
+
+.weather-main {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+  color: #000;
+}
+
+.weather-title-h1 {
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 400;
+  color: #000;
+}
+
+.imgWeather {
+  margin-bottom: 5px;
+  height: 500px;
+  width: 1000px;
+}
+
+.imgWeather-W {
+  margin-bottom: 5px;
+  height: 450px;
+  width: 1000px;
+}
+
+.weather-title-h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.weather-paragraph {
+  color: #000;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.weather-back {
+  color: #000;
+  font-size: 25px;
+}
+
+.weather-google {
+  color: #000;
+  font-size: 25px;
+}
+
+.Sun, .Rain, .Snow, .Lightning, .aboutW, .googleW { /* задал так потому что идёт перезапись других страниц если обращ. глобально!*/
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+  display: block;
+  width: 300px;
+  margin: 0 auto 10px;
+}
+
+.Sun:hover, .Rain:hover, .Snow:hover, .Lightning:hover, .aboutW:hover, .weather-google:hover, .weather-back:hover { /* задал так потому что идёт перезапись других страниц если обращ. глобально!*/
+  color: red;
+}
+
+/********************* less 2: git *******************************/
+/*  открыть терминал git Bash, установить 1 раз global настройки (name, email)
+1. git config --global user.name "your name"
+2. git config --global user.email "your email" (email === email github)
+
+создаём ключ:
+ssh-keygen -t ed25519 -C "your email" (email === email github)
+попросит создать пароль, просто enter
+после этой команды всё нажимаем enter
+
+cat ~/.ssh/id_ed25519.pub
+после скопируем содержимое этого файла и внесем его в сеттинги gitHub в разделе SSH
+-----------------------------------------------------------------------------------
+При создании любого проекта: 
+Один раз делаем в проекте git init
+
+И не забываем создать проект удалённо на GitHub
+
+а дальше команды (осн.):
+git status - проверяем статус
+
+git add .
+git commit -m "message here"
+(при первом пуше на удалённый гит пишем: git push -u origin master)
+последующие разы просто: git push
+------------------------------------------------------------------------------------
+Если работаем в одном проекте и создаем новые ветки, напр. (hw-3/hw-4/hw-5 ets),
+тогда нужно сделать ветвление командой git checkout -b "hw-3" - создасться ветка hw-3 и 
+произойдет автоматический переход на нее
+
+После работы в проекте необходимо сделать:
+git add .
+git commit -m "your message"
+git push -u origin hw-3 (то есть, мы связывает удаленную ветку ORIGIN с текущей локальной HW-3 в данном примере!
+
+
+
+/******************* less 3: Внутрішні стилі та звернення + Таблиця Мондриана **********************/
+.BG-table {
+  background: #475583;
+  height: 740px;
+}
+
+.tables-container {
+  border-collapse: separate;
+  border: 2px solid rgb(0, 0, 0);
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.table-thead > .tr, td{
+  border-collapse: separate;
+  border: 2px solid rgb(0, 0, 0); 
+}
+
+/* 
+
+        table, th, td {
+        border-collapse: separate;
+        border: 2px solid rgb(0, 0, 0); 
+
+*/
+
+.tables-h1 {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 400;
+  color: #000;
+}
+
+.table-h3 {
+  text-align: center;
+  margin: 30px auto 90px;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.table-h3:hover {
+  color: red;
+}
+
+
+/************** less 4. inline-block ****************************************************/
+.BG-dives {
+  background: #478383;
+  height: 740px;
+} 
+
+.dives-title-h1 {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+}
+
+.dives-container {
+    width: 1200px;
+    background: blueviolet;
+    padding: 20px;
+    border: 10px solid yellowgreen;
+    box-sizing: border-box;
+    margin: 0 auto 25px;
+}
+
+.dives-container-1 {
+  background: black;
+}
+
+#dives-header {
+  background: violet;
+}
+
+.dives-header, .dives-body, .dives-footer {
+    padding: 50px 20px;
+    margin: 0 0 20px;
+    outline: 2px solid purple;
+}
+
+.dives-footer {
+  margin: 0;
+}
+
+.dives-container > .dives-header1, .dives-footer {
+  background: rgb(141, 113, 60);
+}
+
+.dives-header + .dives-body {
+  background: blue;
+}
+
+.dives-back {
+  color: #000;
+  font-size: 45px;
+  text-align: center;
+}
+
+.dives-back:hover {
+  color: red;
+}
+
+
+/************** less 5. ****************************************************/
+.cards-section {
+  background: lightblue;
+	padding:  143px 0 222px;
+}
+
+.cards-container {
+  width: 1200px;
+	margin: 0 auto;
+}
+
+.cards-container-h1 {
+  font-size: 34px;
+	font-weight: 900;
+	margin: 0 0 40px;
+	text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  color: #000;
+}
+
+.cards-container-2 {
+  font-size: 0;
+}
+
+.cards-card {
+	display: inline-block;
+	font-size: 16px;
+	width: 200px;
+	padding: 10px;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	vertical-align: top;
+  border-radius: 6px;
+}
+
+.ADR {
+  color: #000;
+}
+
+.cards-card:nth-child(2n) {
+	background: yellow;
+}
+
+.cards-card:hover {
+	background: orange;
+}
+
+.cards-card:hover .cards-title .ADR {
+	color: #fff;
+}
+
+.cards-card:hover {
+  box-shadow: 0 1px 6px blue;
+}
+
+.cards-img {
+	height: 120px;
+	display: block;
+	margin: 0 0 15px;
+}
+
+.cardsImg {
+  width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.cards-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 24px;
+	margin: 0 0 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.cards-desc {
+	margin: 0 0 15px;
+	height: 80px;
+	overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+.cards-link {
+	text-decoration: underline;
+}
+
+
+/************** less 5.5 inline blocks ****************************************************/
+.BG-inblock {
+  background: #3f3f3f;
+}
+
+.inblock-container {
+  width: 600px;
+	margin: 0 auto;
+}
+
+.inblock-h1, .inblock-p {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.inblock-p {
+  font-size: 20px;
+  padding-top: 0;
+  margin-bottom: 20px;
+}
+
+.inblock-back {
+  font-size: 25px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: 'Tektur', sans-serif;
+}
+
+.inblock-ADR {
+  color: white;
+}
+
+.inblock-ADR:hover {
+  color: red;
+}
+
+.box {
+  font-size: 0;
+  background: aqua;
+}
+
+.box > div {
+  font-size: 20px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  outline: 2px solid black;
+}
+
+.box2 {
+  font-size: 0;
+  background: yellowgreen;
+}
+
+.box2 div {
+  outline: 2px solid black;
+}
+
+.box2 > div {
+  display: inline-block;
+  width: 400px;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.box2 > div > div {
+  height: 100px;
+}
+
+.box2 > div + div {
+  width: 200px;
+}
+
+.box2 > div + div > div {
+  height: 66px;
+}
+
+.box3 {
+  font-size: 0;
+}
+
+.box3 div {
+  outline: 2px solid black;
+  font-size: 20px;
+  background: orange;
+}
+
+.box3 > div {
+  display: inline-block;
+  width: 200px;
+  font-size: 20px;
+vertical-align: top;
+}
+
+.box3 > div > div {
+  height: 200px;
+
+}
+
+.box3 > div + div {
+  width: 400px;
+  
+}
+
+.box3 > div + div > div {
+  height: 100px;
+    
+}
+
+.box3 > div + div > div > div{
+  height: 100px;
+
+}
+.box3 > div + div + div > div{
+  width: 200px;
+
+}
+
+.box3 > div + div > div + div > div{
+  width: 200px;
+  float: left;
+}
+.box3 > div + div > div + div > div > div {
+  height: 50px;
+}
+
+
+/*****************  video  ***********************/
+.section-video {
+  color: #161616;
+  text-align: justify;
+  padding: 100px 0;
+  background: #fafafa;
+}
+
+.container-xs {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.video-header {
+  text-align: center;
+  background:  rgb(0, 0, 0, 0.4);
+  position: relative;
+  color: #fafafa;
+}
+
+.header-video {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-container {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.header-title-video {
+  font-size: 7rem;
+  text-transform: uppercase;
+  margin: 4rem 0;
+}
+
+.video-btn {
+  font-size: 2.2rem;
+  display: inline-block;
+  text-decoration: none;
+  bottom: 0;
+  color: white;
+  padding: 0.8rem 4rem;
+  cursor: pointer;
+  background: rgb(103, 143, 65);
+  border-radius: 6px;
+}
+
+.header-paragraph-video {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  font-style: italic;
+}
+
+.header-btn-video {
+  align-self: center;
+}
+
+.but{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.back-video {
+  text-decoration: none;
+  bottom: 0;
+  color: white;
+  padding: 0.8rem 4rem;
+  background: rgb(103, 143, 65);
+  border-radius: 6px;
+  font-size: 1.7rem;
+  font-family: 'Tektur', sans-serif;
+}
+
+
+/*****************  less 6  ***********************/
+
+.BG-flex{
+  background: #33aa90;
+}
+
+
+.flex-title-h1{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 50px;
+}
+
+/*************************************************/
+
+
+
+/*--------------------------- NEW STYLE WRITE CODE ----------------------------------------------------------------------------*/
+.BG-g{
+  background: green;
+}
+
+.BG-b{
+  background: blue;
+}
+
+.BG-y{
+  background: yellow;
+}
+
+.BG-s{
+  background: silver;
+}
+
+.BG-w{
+  background: white;
+}
+
+.BG-bk{
+  background: black;
+}
+
+.BG-pur{
+  background: purple;
+}
+
+.back {
+  color: #000;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.back-a {
+color: #000000;
+}
+
+.back-a:hover {
+  color: red;
+}
+
+.contw1200m{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contw600m{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.fz0{
+  font-size: 0;
+}
+
+.otl-r{
+  outline: 1px solid red;
+}
+
+.d-b{
+  display: block;
+}
+
+.d-f {
+  display: flex;
+}
+
+.f-l {
+  float: left;
+}
+
+.f-r {
+  float: right;
+}
+
+
+.w50{
+  width: 50px;
+}
+
+.h50{
+  height: 50px;
+}
+
+.w66{
+  width: 66.66px;
+}
+
+.h66{
+  height: 66.66px;
+}
+
+.w100{
+  width: 100px;
+}
+
+.h100{
+  height: 100px;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.h200 {
+  height: 200px;
+}
+
+.w400 {
+  width: 400px;
+}
+
+.h400 {
+  height: 400px;
+}
+
+.w600 {
+  width: 600px;
+}
+
+.h600{
+  height: 600px;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/********** CONTAINER ****************************/
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*------------------------------------ MAIN PAGE ----------------------------------------------------*/
+/***************** main-header ************************/
+.header-container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+  background: black;
+  padding: 20px 0;
+}
+
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+
+.list li {
+  position: relative;
+}
+
+.list li:hover .second-menu {
+  display: block;
+  z-index: 9;
+}
+
+.list li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: rgb(128, 0, 128);
+  padding: 15px 30px;
+  display: block;
+  border-radius: 10px;
+  color: #000000;
+  border: 2px solid rgb(255, 255, 255);
+  text-align: center;
+  font-size: 25px;
+  white-space: nowrap;
+  font-family: 'Tektur', sans-serif;
+}
+
+.list .second-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: none;
+  padding-top: 20px;
+}
+
+.list .second-menu a {
+  background: rgb(128, 0, 128);
+  border: 3px solid #000000;
+  font-family: 'Roboto';
+}
+
+.list li a:hover {
+  background: yellowgreen;
+}
+
+.list ul.third-menu a {
+  font-family: 'DM Serif Display', serif;
+  font-size: 25px;
+}
+
+.list ul.third-menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  right: auto;
+  padding-top: 0;
+  display: none;
+  font-family: 'DM Serif Display', serif;
+  z-index: 3;
+}
+
+.second-menu li:hover ul.third-menu {
+  display: block;
+}
+/************************* main-block ******************************/
+
+.Main-page {
+  background: url(/images/Arcane.jpg) no-repeat center/cover;
+  height: 934px;
+  z-index: -1;
+}
+
+.main-block-1 {
+  display: flex;
+  gap: 30px;
+  color: #F2F2F2;
+  justify-content: center;
+  border-radius: 6px;
+/*  row-gap: 30px;  */
+}
+
+.pageUP {
+  position: fixed;
+  z-index: 4;
+  left: 10px;
+  bottom: 10px;
+}
+
+.title-main {
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  padding-top: 24px;
+  margin-bottom: 24px;
+  font-family: 'Fredericka the Great', serif;
+  font-weight: 400;
+  font-size: 65px;
+}
+
+.main-block-1{
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+.main-block-1 > div {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  outline: 2px solid red;
+
+}
+
+
+.main-block-1 > .Block-A {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  outline: 2px solid rgb(0, 17, 255);
+}
+
+.block-title {
+  position: absolute;
+  background: #81a36b;
+  height: 50px;
+  width: 100%;
+  border: 2px solid #F2F2F2;
+  border-radius: 10px;
+  z-index: 0;
+  
+}
+
+.block-title h2 {
+  text-align: center;
+  display: block;
+  margin: 15px 0;
+  font-size: 20px;
+  color: #000;
+}
+
+.block-title p {
+  text-align: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: 2px solid #F2F2F2;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+
+
+/***************** main-footer ***********************************************/
+.footer {
+  background: black;
+  color: #F2F2F2;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Tektur', sans-serif;
+}
+/***********************************************************************/
+
+
