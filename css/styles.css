@@ -58,6 +58,7 @@ html {
 
 body {
   font-family: 'Oxygen';
+  font-weight: 400;
 }
 
 
@@ -1444,7 +1445,11 @@ color: #000000;
 
 
 /*----------------------------------------------------------------------------------------------------------------------------------*/
-
+/***********************************************************************/
+/***********************************************************************/
+/***********************************************************************/
+/***********************************************************************/
+/***********************************************************************/
 
 /********** CONTAINER ****************************/
 .container {
@@ -1461,6 +1466,7 @@ color: #000000;
 .header {
   background: black;
   padding: 20px 0;
+  font-weight: 700;
 }
 
 
@@ -1476,7 +1482,7 @@ color: #000000;
 
 .list li:hover .first-menu {
   display: block;
-  z-index: 8;
+  z-index: 9;
 }
 
 .list .first-menu {
@@ -1496,12 +1502,11 @@ color: #000000;
 .list li a {
   text-decoration: none;
   text-transform: uppercase;
-  background: rgb(128, 0, 128);
+  background: #81a36b;
   padding: 15px 30px;
   display: block;
   border-radius: 10px;
   color: #000000;
-  border: 2px solid rgb(255, 255, 255);
   text-align: center;
   font-size: 25px;
   white-space: nowrap;
@@ -1518,19 +1523,21 @@ color: #000000;
 }
 
 .list .second-menu a {
-  background: rgb(128, 0, 128);
-  border: 3px solid #000000;
+  background: #81a36b;
+  border: 2px solid #000000;
   font-family: 'Roboto';
+  font-weight: 400;
 }
 
 .list .first-menu a {
-  background: rgb(128, 0, 128);
-  border: 3px solid #000000;
+  background: #81a36b;
+  border: 2px solid #000000;
   font-family: 'Roboto';
+  font-weight: 400;
 }
 
 .list li a:hover {
-  background: yellowgreen;
+  background: purple;
 }
 
 .list ul.third-menu a {
@@ -1547,6 +1554,8 @@ color: #000000;
   display: none;
   font-family: 'DM Serif Display', serif;
   z-index: 3;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .second-menu li:hover ul.third-menu {
@@ -1612,7 +1621,7 @@ color: #000000;
   background: #81a36b;
   height: 50px;
   width: 100%;
-  border: 2px solid #F2F2F2;
+  border: 2px solid #000000;
   border-radius: 10px;
   z-index: 0;
   
@@ -1631,11 +1640,10 @@ color: #000000;
   padding: 10px 0;
   text-transform: uppercase;
   font-size: 20px;
-  border: 2px solid #F2F2F2;
+  border: 2px solid #000000;
   border-radius: 10px;
   font-weight: 400;
 }
-
 
 
 /***************** main-footer ***********************************************/
@@ -1648,32 +1656,102 @@ color: #000000;
   font-family: 'Tektur', sans-serif;
 }
 /***********************************************************************/
-
-.posts-card{
-  border-radius: 6px;
+/***********************************************************************/
+/***********************************************************************/
+/***********************************************************************/
+/***********************************************************************/
+.posts {
+  padding: 60px 0;
+  background: #F7F7F7;
 }
 
-.postsH2{
+.posts-container {
+  max-width: 940px;
+}
+
+.posts-cadrs {
+  display: flex;
+  gap: 24px;
+}
+
+.postsH2 {
   text-align: center;
-  font-family: 'Oxigen', sans-serif;
-  font-weight: 400;
-  font-size: 48px;
-  outline: 1px solid red;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-bottom: 16px;
+  margin-bottom: 25px;
+  position: relative;
+
+}
+
+.postsH2::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 188px;
+  height: 1px;
+  background: #DEDEDE;
+  margin-left: -94px;
+}
+
+/*
+.posts-card::before {
+  z-index: 2;
+  background: rgba(0, 0, 0, 1);
+} */
+
+.posts-card > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.posts-card {
+  position: relative;
+  z-index: 1;
+  min-height: 280px;
+  color: rgba(255, 255, 255, 0.70);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px 20px 15px;
+  flex: 1 1 50%;
 }
 
 .postsH3 {
-  outline: 1px solid red;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Lora';
   font-weight: 400;
-  font-size: 30px;
-  margin-bottom: 15px;
+  font-size: 27px;
+  margin-bottom: 6px;
   /*color: white;*/
-  flex-shrink: 0;
+  color: #fff;
+}
+.postP {
+  font-size: 14px;
+  margin-bottom: 12px;
 }
 
-.postP {
-}
 .posts-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
 }
+
 .posts-name {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
+
+.posts-name > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
