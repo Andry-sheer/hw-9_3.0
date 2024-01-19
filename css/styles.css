@@ -1649,4 +1649,31 @@ color: #000000;
 }
 /***********************************************************************/
 
+.posts-card{
+  border-radius: 6px;
+}
 
+.postsH2{
+  text-align: center;
+  font-family: 'Oxigen', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  outline: 1px solid red;
+}
+
+.postsH3 {
+  outline: 1px solid red;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 15px;
+  /*color: white;*/
+  flex-shrink: 0;
+}
+
+.postP {
+}
+.posts-in {
+}
+.posts-name {
+}
