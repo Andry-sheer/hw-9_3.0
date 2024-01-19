@@ -3,8 +3,8 @@
 
 @font-face {
   font-family: 'Oxygen';
-  src: url('../Oxygen-Bold.woff2') format('woff2'),
-      url('../Oxygen-Bold.woff') format('woff');
+  src: url('/fonts/Oxygen-Bold.woff2') format('woff2'),
+      url('/fonts/Oxygen-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -12,8 +12,8 @@
 
 @font-face {
   font-family: 'Lora';
-  src: url('../Lora-Regular.woff2') format('woff2'),
-      url('../Lora-Regular.woff') format('woff');
+  src: url('/fonts/Lora-Regular.woff2') format('woff2'),
+      url('/fonts/Lora-Regular.woff') format('woff');
   font-weight: 400;
   /*  font-style: normal; */
   font-display: swap;
@@ -22,7 +22,7 @@
 @font-face {
   font-family: 'Oxygen';
   src: url('/fonts/Oxygen-Regular.woff2') format('woff2'),
-      url('../Oxygen-Regular') format('woff');
+      url('/fonts/Oxygen-Regular.woff') format('woff');
   font-weight: 400;
   /* font-style: italic; */
   font-display: swap;
@@ -30,8 +30,8 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../Roboto-Bold.woff2') format('woff2'),
-      url('../Roboto-Bold.woff') format('woff');
+  src: url('/fonts/Roboto-Bold.woff2') format('woff2'),
+      url('/fonts/Roboto-Bold.woff') format('woff');
   font-weight: 700;
   font-display: swap;
 }
@@ -1453,8 +1453,9 @@ color: #000000;
 
 /********** CONTAINER ****************************/
 .container {
-	width: 1200px;
+	width: 1224px;
 	margin: 0 auto;
+  padding: 0 12px;
 }
 /*------------------------------------ MAIN PAGE ----------------------------------------------------*/
 /***************** main-header ************************/
@@ -1666,12 +1667,13 @@ color: #000000;
 }
 
 .posts-container {
-  max-width: 940px;
+  max-width: 964px;
 }
 
 .posts-cadrs {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 .postsH2 {
@@ -1720,7 +1722,7 @@ color: #000000;
   flex-direction: column;
   justify-content: flex-end;
   padding: 20px 20px 15px;
-  flex: 1 1 50%;
+  flex: 1 1 45%;
 }
 
 .postsH3 {
