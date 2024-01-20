@@ -1719,7 +1719,7 @@ color: #000000;
   z-index: -1;
 }
 
-.posts-cadr > div {
+.posts-card > div {
   padding: 20px 20px 15px;
   position: relative;
   z-index: 1;
