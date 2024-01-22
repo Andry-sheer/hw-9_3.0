@@ -42,3 +42,48 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Tektur';
+    src: url('Tektur-Bold.woff') format('woff'),
+        url('Tektur-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur';
+    src: url('Tektur-Regular.woff') format('woff'),
+        url('Tektur-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Salsa';
+    src: url('Salsa-Regular.woff') format('woff'),
+        url('Salsa-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ArchitectsDaughter';
+    src: url('ArchitectsDaughter-Regular.woff') format('woff'),
+        url('ArchitectsDaughter-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FrederickatheGreat';
+    src: url('FrederickatheGreat-Regular.woff') format('woff'),
+        url('FrederickatheGreat-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
